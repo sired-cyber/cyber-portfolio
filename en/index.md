@@ -2,8 +2,6 @@
 layout: default
 title: "Home"
 lang: en
-permalink: /en/
-translation: /es/
 ---
 
 
