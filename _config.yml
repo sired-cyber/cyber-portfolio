@@ -3,3 +3,5 @@ plugins:
 - jekyll-remote-theme
 title: sirEd portfolio
 description: Portfolio and my own wiki
+languages: ["en","es"]
+default_lang: "es"
