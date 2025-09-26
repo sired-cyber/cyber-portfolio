@@ -1,9 +1,22 @@
 ---
 layout: default
-title: Inicio
+title: "Landing"
+lang: both
+permalink: /
 ---
+<!-- English block -->
+<div class="lang" data-lang="en">
+# Hi — I'm [Tu Nombre]
+Welcome to my cybersecurity portfolio. Here you'll find write-ups, projects and investigations.
+[Go to English site](/en/)
+</div>
 
-# Bienvenido a mi web
-Aquí puedes escribir cualquier texto, imágenes, listas, enlaces, etc.
+<!-- Spanish block -->
+<div class="lang" data-lang="es" style="display:none;">
+# Hola — Soy [Tu Nombre]
+Bienvenido a mi portafolio de ciberseguridad. Aquí encontrarás write-ups, proyectos e investigaciones.
+[Ir al sitio en español](/es/)
+</div>
 
-- [Ir a la página Sobre mí](about.md)
+<!-- include toggle controls -->
+{% include landing-lang-toggle.html %}
